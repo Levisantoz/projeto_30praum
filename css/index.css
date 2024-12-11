@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --preto: #000;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+#logo{
+    width: 10%;
+    height: 10%;
+    padding-top: 1.5rem ;
+}
+
+.menu{
+    display: flex;
+    gap: 1.5rem;
+    
+}
+
+.link_menu{
+    color: var(--preto);
+}
